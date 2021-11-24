@@ -96,12 +96,12 @@ function moveMenu() {
     if (respWidth < 767) {
         jQuery('#menulinks').appendTo('#mobile-menulinks');
         jQuery('#categories').appendTo('#mobile-categories');
-        jQuery('#searchBox').appendTo('#search-mobile');
+        //jQuery('#searchBox').appendTo('#search-mobile');
     }
     else {
         jQuery('#menulinks').appendTo('#menulinks-outer');
         jQuery('#categories').appendTo('#navbar');
-        jQuery('#searchBox').appendTo('#search-modal-body');
+       // jQuery('#searchBox').appendTo('#search-modal-body');
     }
 }
 
