@@ -172,7 +172,7 @@ jQuery(function () {
 	
 	var respWidth=window.innerWidth;
 	if(respWidth < 768) {
-		jQuery('#searchBox').appendTo('#useraccount-wrapper');
+		//jQuery('#searchBox').appendTo('#useraccount-wrapper');
 	}
 });
 
